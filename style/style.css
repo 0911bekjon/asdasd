@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.conteiner {
+    width: 1900px;
+    height: 1000px;
+    background-color: #0C0C0C;
+    background-image: url("./image/G.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteiner .content {
+width: 1000px;
+height: 700px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: url("./image/savernake-knives-f4jl2ezowuM-unsplash\ 2.png");
+background-repeat: no-repeat;
+background-position: center;
+position: relative;
+gap: 200px;
+}
+
+.conteiner .content .divOne {
+    width: 400px;
+    height: 300px;
+    text-align: right;
+}
+.conteiner .content .divTwo {
+    width: 400px;
+    height: 300px;
+    text-align: left;
+}
+.conteiner .content h1 {
+    color: #CFBE7F;
+}
+.conteiner .content .divOne p  {
+    color: #AAAAAA;
+    margin-bottom: 20px;
+}
+.conteiner .content .divTwo p {
+    color: #AAAAAA;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.conteiner .content .divTwo button {
+    width: 120px;
+    height: 40px;
+    font-family: Cormorant Upright;
+    background-color: #CFBE7F;
+}
+.conteiner .content .divOne button {
+    width: 120px;
+    height: 40px;
+    font-family: Cormorant Upright;
+    background-color: #CFBE7F;
+}
