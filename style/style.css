@@ -116,24 +116,21 @@ gap: 200px;
     height: 600px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .bigconteiner .items .itemOne {
-    width: 33%;
+    width: 400px;
     height: 600px;
 }
 .bigconteiner .items .itemTwo {
-    width: 33%;
+    width: 400px;
     height: 600px;
     background-image: url("./image/3596233\ 1.png");
     background-repeat: no-repeat;
 background-position: center;
 }
-.bigconteiner .items .itemThree {
-    width: 33%;
-    height: 600px;
-}
 .bigconteiner .items .itemOne .wine .head h1 {
-color: white;
+    color: white;
 }
 .bigconteiner .items .itemOne .wine .head {
     width: 200px;
@@ -144,14 +141,172 @@ color: white;
 }
 .bigconteiner .items .itemOne .wine {
     width: 100%;
-    height: 600px;
+    height: 70px;
     display: flex;
     justify-content: center;
+    /* align-items: center; */
+}
+.price {
+    width: 370px;
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+.price h3 {
+    color: #DCCA87;
+}
+.price .pricecOne {
+    width: 400px;
+    height: 90px;
+}
+.price .pricecTwo {
+    width: 400px;
+    height: 90px;
+}.price .pricecThree {
+    width: 400px;
+    height: 90px;
+}.price .pricecFour {
+    width: 400px;
+    height: 90px;
+}.price .pricecFive {
+    width: 400px;
+    height: 90px;
+}
+.price  img {
+    width: 90px;
+}
+.price  h5 {
+    color: white;
+    font-size: 20px;
+    /* margin-left:10px ; */
+}
+.price .pricecOne .pricecChap {
+    width: 370px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.price .pricecTwo .pricecCatane {
+    width: 370px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.price .pricecThree .pricecLaViele {
+    width: 370px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}.price .pricecFour .pricecRhino {
+    width: 370px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}.price .pricecFive .pricecIrish {
+    width: 370px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.price  h4 {
+    color: #656463;
+}
+.price2 {
+    width: 370px;
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+.price2 h3 {
+    color: #DCCA87;
+}
+.price2 .pricecOne2 {
+    width: 400px;
+    height: 90px;
+}
+.price2 .pricecTwo2 {
+    width: 400px;
+    height: 90px;
+}.price2 .pricecThree2 {
+    width: 400px;
+    height: 90px;
+}.price2 .pricecFour2 {
+    width: 400px;
+    height: 90px;
+}.price2 .pricecFive2 {
+    width: 400px;
+    height: 90px;
+}
+.price2  img {
+    width: 90px;
+}
+.price2  h5 {
+    color: white;
+    font-size: 20px;
+    /* margin-left:10px ; */
+}
+.price2 .pricecOne2 .pricecChap2 {
+    width: 370px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.price2 .pricecTwo2 .pricecCatane2 {
+    width: 370px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.price2 .pricecThree2 .pricecLaViele2 {
+    width: 370px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}.price2 .pricecFour2 .pricecRhino2 {
+    width: 370px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}.price2 .pricecFive2 .pricecIrish2 {
+    width: 370px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.price2  h4 {
+    color: #656463;
 }
 
-
-
-
-
-
-
+.bigconteiner .items .itemThree {
+    width: 400px;
+    height: 600px;
+}
+.bigconteiner .items .itemThree .coctails .head h1 {
+    color: white;
+}
+.bigconteiner .items .itemThree .coctails .head {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bigconteiner .items .itemThree .coctails {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
